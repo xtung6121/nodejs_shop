@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --inspect index.js",
+    "start-server": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xtung6121/nodejs_shop.git"
+  },
+  "keywords": [
+    "shop",
+    "manager"
+  ],
+  "author": "tung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xtung6121/nodejs_shop/issues"
+  },
+  "homepage": "https://github.com/xtung6121/nodejs_shop#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
